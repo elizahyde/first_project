@@ -1,5 +1,5 @@
 html {
-	background-color: #DEF1ED;
+	background-color: #DEDEDE;
 }
 h1 {
 	color: #F55B2C;
@@ -8,6 +8,7 @@ h1 {
 h3 {
 	color: #616566;
 	margin-top: -25px;
+	font-family: Futura;
 }
 
 body p {
@@ -26,27 +27,30 @@ a:hover {
 	color:#616566;
 	text-decoration: none;
 }
-
-#container {
-	background-color: #fffadc;
+#expansion {
+	margin: 0 auto;
 	width: 650px;
+}
+.container {
+	background-color: #DEF1ED;
+	width: 100%;
 	padding: 20px;
 	border-radius: 7px;
 	margin-top: 10px;
 	box-shadow: 5px 5px 10px #888888;
 }
-#container:after {
+.container:after {
 	content:'';
 	display:block;
 	clear:both;
 }
 .header {
 	position: right;
-	width: 650px;
-	background-color: #fffadc;
+	width: 100%;
+	background-color: #DEF1ED;
 	padding: 1px 20px 1px 20px;
 	border-radius: 7px;
-	box-shadow: 5px 0 10px #888888;
+	box-shadow: 5px 5px 10px #888888;
 }
 .about {
 	width: 300px;
@@ -58,19 +62,98 @@ a:hover {
 }
 .photo img {
 	width: 250px;
+	border: 4px solid white;
 	box-shadow: 5px 5px 10px #888888;
 }
+
 .media {
 	padding-top: 10px;
 	clear: both;
+}
+
+.linkedin {
+    background-image: url(MediaIcons/linkedin_sprite.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-linkedin {
+    width: 128px;
+    height: 128px;
+    background-position: -5px -5px;
+}
+
+.sprite-linkedin:hover {
+    width: 128px;
+    height: 128px;
+    background-position: -5px -143px;
+}
+
+.github {
+    background-image: url(MediaIcons/github_sprite.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-github {
+    width: 128px;
+    height: 128px;
+    background-position: -5px -5px;
+}
+
+.sprite-github:hover {
+    width: 128px;
+    height: 128px;
+    background-position: -5px -143px;
+}
+
+.tumblr {
+    background-image: url(MediaIcons/tumblr_sprite.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-tumblr {
+    width: 128px;
+    height: 128px;
+    background-position: -5px -5px;
+}
+
+.sprite-tumblr:hover {
+    width: 128px;
+    height: 128px;
+    background-position: -5px -143px;
+}
+
+.twitter {
+    background-image: url(MediaIcons/twitter_sprite.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-twitter {
+    width: 128px;
+    height: 128px;
+    background-position: -5px -5px;
+}
+
+.sprite-twitter:hover {
+    width: 128px;
+    height: 128px;
+    background-position: -5px -143px;
 }
 .media ul {
 	list-style-type: none;
 }
 .media li {
 	display: inline;
+	list-style-type: none;
 }
 
+.media li a{
+	float: left;
+	padding: 5px;
+}
 .media p {
 	color: #F55B2C;
 }
